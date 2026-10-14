@@ -1,13 +1,12 @@
-package com.society.societymanagement.controller;
+package com.society.cocietymanagement.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HomeController {
+public class HomeController{
 
     @GetMapping("/")
-    public String home() {
-        return "Society Management System Running Successfully";
-    }
+    public String home() { return "Society Management System Running Successfully";}
 }
+
